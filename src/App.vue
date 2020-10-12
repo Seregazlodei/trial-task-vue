@@ -1,28 +1,11 @@
 <template>
   <div id="app">
     <h1>Trial Test in Vue.</h1>
-    <PostForm/>
-    <h1>{{postsCount}}</h1>
-    <div class="post" v-for="post in validPosts" :key="post.id">
-      <h2>{{post.title}}</h2>
-      <p>{{post.body}}</p>
-    </div>
+    <router-view/>
   </div>
 </template>
 
-<script>
-import {mapGetters, mapActions} from 'vuex';
-import PostForm from './components/PostForm';
-export default {
-  name: 'App',
-  computed: mapGetters(["validPosts", "postsCount"]),
-  methods: mapActions(['fetchPosts']),
-  components: { PostForm },
-  async mounted() {
-    this.fetchPosts();
-  }
-}
-</script>
+
 
 <style>
 #app {

@@ -1,11 +1,10 @@
-import { hasOwnMetadata } from 'core-js/fn/reflect'
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/Home'
 
 Vue.use(Router)
 
-export default new Router() {
+export default new Router ({
     mode: 'history',
     routes: [
         {
@@ -13,8 +12,9 @@ export default new Router() {
             component: Home
         },
         {
-            path: '/posts',
-            component: () => import('./views/Posts.vue')
+            path: '/blog',
+            component: () => import('./views/Blog.vue')
         }
+
     ]
-}
+})

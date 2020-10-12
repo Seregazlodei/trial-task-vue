@@ -2,8 +2,7 @@
     <div>
         <h2>Home page</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et suscipit dicta nulla deleniti quasi officiis quo, magnam fugit, maxime voluptas eius aut odit labore ratione, totam quis rerum ducimus animi?</p>
-
-        <a href="/posts">Posts</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quibusdam aperiam reiciendis? Cumque maiores laudantium, iure deleniti temporibus sit esse. Et vitae, dolorem eveniet optio inventore voluptas suscipit a aperiam!</p>
+        <a href="/blog">Blog</a>
     </div>
 </template>

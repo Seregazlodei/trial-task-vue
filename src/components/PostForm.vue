@@ -1,8 +1,8 @@
 <template>
     <form @submit.prevent="submit">
-        <input type="text" placeholder="title" v-model="title">
-        <input type="text" placeholder="body" v-model="body">
-        <button type="submit">Create Post</button>
+        <b-form-input placeholder="title"></b-form-input>
+        <b-form-input placeholder="body"></b-form-input>
+        <b-button variant="dark" type="submit">Create Post</b-button>
         <hr>
     </form>
 </template>

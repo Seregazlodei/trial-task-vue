@@ -29,6 +29,6 @@ export default {
             return state.posts.filter(p => {
                 return p.title && p.body;
             })
-        }
+        },
     },
 }

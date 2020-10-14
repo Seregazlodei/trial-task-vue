@@ -1,9 +1,16 @@
 <template>
   <div id="app">
-    <h1>Trial Test in Vue.</h1>
+    <Navbar />
     <router-view/>
   </div>
 </template>
+
+<script>
+  import Navbar from '@/components/Navbar.vue'
+  export default {
+    components: {Navbar}
+  }
+</script>
 
 <style>
 #app {
